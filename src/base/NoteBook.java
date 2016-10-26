@@ -108,4 +108,17 @@ public class NoteBook implements java.io.Serializable {
 		
 		
 	}
+	
+	public boolean folderexist(String foldername){
+		for(Folder e:folders){
+			if (e.getName().equals(foldername)){
+				return true;
+			}
+		}
+		return false;
+	}
+	
+	public void addFolder(String folderName) {
+		folders.add(new Folder(folderName));
+	}
 }

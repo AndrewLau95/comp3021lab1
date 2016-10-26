@@ -35,6 +35,10 @@ public class TextNote extends Note {
 		return content;
 	}
 	
+	public void setContent(String text){
+		content = text;
+	}
+	
 	private String getTextFromFile(String absolutePath) {
 		String result = "";
 		String Line;
