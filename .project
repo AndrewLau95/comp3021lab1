@@ -14,4 +14,11 @@
 	<natures>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/icons</name>
+			<type>2</type>
+			<locationURI>PARENT-2-PROJECT_LOC/Documents/Fall%202016%20-%20HKUST/Java%20Programming/icons</locationURI>
+		</link>
+	</linkedResources>
 </projectDescription>
